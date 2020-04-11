@@ -1,0 +1,43 @@
+@font-face {
+  
+  font-family: "IRANSansWeb";
+  src: url("./assets/fonts/BRoya.ttf") format("ttf"),
+       url("./assets/fonts/BRoya.woff") format("woff"),
+       url("./assets/fonts/BRoya.eot") format("eot");
+}
+
+// @font-face {font-family: "IRANSansWeb";
+//   src: url("./assets/fonts/IranSans.eot"); /* IE9*/
+//   src: url("./assets/fonts/IranSans.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+//   url("./assets/fonts/IranSans.woff2") format("woff2"), /* chrome、firefox */
+//   url("./assets/fonts/IranSans.woff") format("woff"), /* chrome、firefox */
+//   url("./assets/fonts/IranSans.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+//   url("./assets/fonts/IranSans.svg#IRANSansWeb") format("svg"); /* iOS 4.1- */
+// }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 55%;
+  }
+}
+
+body {
+  font-family: "IRANSansWeb";
+  font-size: 1.6rem;
+  
+  direction: rtl;
+  padding-top: 10rem;
+  font-weight: 300;
+  line-height: 1.6;
+}

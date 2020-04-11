@@ -1,0 +1,92 @@
+.Product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 3rem;
+    margin: 3rem 0;
+}
+
+.Info {
+
+    h1 {
+        margin-bottom: 4rem;
+        line-height: 1.5;
+        font-weight: 600;
+        color: rgba(0,0,0,.87);
+    }
+
+}
+
+.Picture {
+
+    img {
+        width: 100%;
+    }
+}
+
+.BtnContainer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Btn {
+    font-family: inherit;
+    font-size: 1.8rem;
+    height: 100%;
+    padding: 1rem 1.5rem .75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .36s ease;
+}
+
+.Red {
+    color: #fff;
+    box-shadow: inset 0 0 0 0 rgba(34,36,38,.15);
+    background-color: #a62626;
+    border: none;
+    margin-left: .5rem;
+
+    &:hover {
+        background-color: #971b1b;
+    }
+}
+
+.White {
+    color: #0d0d0d;
+    box-shadow: inset 0 0 0 1px #0d0d0d;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+        margin-right: auto;
+    }
+}
+
+.ChatIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+    opacity: .8;
+    margin-left: 1rem;
+}
+
+.DescList {
+    list-style: none;
+    width: 100%;
+    color: rgba(0,0,0,.87);
+    font-weight: 300;
+    font-size: 2rem;
+    li {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(0,0,0,.08);
+    }
+}
+
+.RedText {
+    color: #9f0f0f;
+    cursor: pointer;
+}

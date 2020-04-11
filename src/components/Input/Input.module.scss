@@ -1,0 +1,13 @@
+.Input {
+    margin-bottom: 2rem;
+
+    input {
+        padding: 1.5rem 1rem;
+        font-family: inherit;
+        width: 60%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

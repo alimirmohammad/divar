@@ -1,0 +1,18 @@
+.CitySelector {
+    width: 80%;
+    // height: 20%;
+    position: fixed;
+    z-index: 200;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.ButtonBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 3rem;
+}

@@ -1,0 +1,29 @@
+.FilterButton {
+    color: #a62626;
+    font-family: inherit;
+    background-color: #fff;
+    border-radius: 10rem;
+    border: 1px solid #a62626;
+    cursor: pointer;
+    margin-left: .75rem;
+    margin-bottom: .75rem;
+    font-size: 1.6rem;
+    outline: none;
+    padding: .5rem 1.2rem;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #be3737;
+        border-color: #be3737;
+        color: #fff;
+    }
+}
+
+.Category {
+    display: none;
+    
+    @media only screen and (max-width: 1000px) {
+        display: block;
+    }
+}

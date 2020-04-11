@@ -1,0 +1,32 @@
+.Navigation {
+    color: rgba(0,0,0,.87);
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    height: 5rem;
+}
+
+.NavRight{
+    margin-left: 2rem;
+    border-left: 1px solid #ededed;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.NavList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-left: 1rem;
+        cursor: pointer;
+
+        &:not(:last-child)::after {
+            content: "/";
+        }
+    }
+}

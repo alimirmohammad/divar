@@ -1,0 +1,20 @@
+.FilterButtons {
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Category {
+    display: none;
+    @media only screen and (max-width: 1000px) {
+        display: block;
+    }
+}
+
+.Menu {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: currentColor;
+    display: block;
+    margin-left: .5rem;
+}

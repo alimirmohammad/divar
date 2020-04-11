@@ -1,0 +1,22 @@
+.CategoryItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #424242;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &:hover a,
+    a.active {
+        color: #a62626;
+    }
+
+    img {
+        margin-left: 2rem;
+    }
+}

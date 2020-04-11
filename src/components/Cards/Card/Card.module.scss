@@ -1,0 +1,65 @@
+.Card {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+    padding-bottom: 1rem;
+
+    &:hover {
+        border-bottom: 1px solid #a62626;
+    }
+
+    .ImgBox {
+        img {
+            width: 100%;
+            border-radius: .4rem;
+        }
+    }
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+.Title {
+    margin-bottom: auto;
+    text-decoration: none;
+    color: #000;
+}
+.Price {
+    // margin-bottom: .1rem;
+    color: #424242;
+}
+
+.Location {
+    color: #bdbdbd;
+    margin-left: auto;
+}
+
+.Details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.ChatIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    fill: #767676;
+    margin-left: .5rem;
+}
+
+.RedText {
+    // margin-left: .4375rem;
+    color: #a62626;
+    border: 1px solid;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1;
+    padding: 0 .5rem;
+    margin-left: .5rem;
+}
